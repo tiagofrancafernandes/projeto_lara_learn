@@ -88,16 +88,20 @@ Run the seeder to import mandatory values to the tables
 ```sh
 php artisan db:seed
 ```
+---
+## After migrate and seed
 
-** Create a symbolic link from "storage/app/public/course/" to "storage/course" **
+**Create a symbolic link from "storage/app/public/course/" to "storage/course"**
 ```sh
 ln -s $(pwd)/storage/app/public/course/ storage/course
 ```
 
-** Create a symbolic link from "public/storage" to "storage/app/public" **
+**Create a symbolic link from "public/storage" to "storage/app/public"**
 ```sh
 php artisan storage:link
 ```
+
+---
 
 ## Support
 For contribution and customisation supports, kindly contact us through the Email ID ulearnpro@gmail.com
